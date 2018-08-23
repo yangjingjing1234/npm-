@@ -10,6 +10,10 @@
 
 
 ## 编写脚手架
+### 一些基本概念
+
+######  CLI 跟GUI
+* 命令解释程序也可以翻译为命令行用户界面（command-line interface），与图形用户界面（graphical user interface）并列作为人机交互界面的两种实现方式
 
 * npm init创建一个package.json
 * 几个比较重要的字段：name,version,main,bin。
