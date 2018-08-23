@@ -10,38 +10,8 @@
 
 
 ## 编写脚手架
-### 一些基本概念
+###[ 一些基本概念](https://github.com/yangjingjing1234/node-self-cli)
 
-######  CLI 跟GUI
-* 命令解释程序也可以翻译为命令行用户界面（command-line interface），与图形用户界面（graphical user interface）并列作为人机交互界面的两种实现方式
-
-* npm init创建一个package.json
-* 几个比较重要的字段：name,version,main,bin。
-> name是表示包发布的名字；
->
-> version是每次发布的时候要修改版本好才能生效（供npm识别），因为每次都要修改，所以建议自动化处理；
->
-> main是项目的入口（别人以npm或commonJS方式来使用），
->
-> bin npm 的入口文件,没有后缀的一个文件 `（#!/usr/bin/env node）` 这是此文件的标识，并不是注释
->
-> <span style="color:'red'"> #! 告诉系统其后路径所指定的程序即是解释此脚本文件的 node 程序。(这句话解释的有误)</span>
->
-
-```
-{
-    "name": "yjjtest",
-    "version": "0.0.1",
-    "description": "前端写作开发流程的脚手架",
-    "main": "index.js",
-    "bin": "bin/init", // 安装之后执行 yjjtest 即为执行命令
-    // 或者以下写法
-    "bin":{
-        "yjjself":"bin/init",// 给入口命令指定别名 ，安装之后执行  yjjself 即可
-    }
-}
-    
-```
 
 * 在根目录下建立\bin文件夹，在里面建立一个无后缀名的init文件。这个bin\init文件是整个脚手架的入口文件，所以我们首先对它进行编写。
 
