@@ -4,7 +4,7 @@
 * https://blog.csdn.net/zhaolandelong/article/details/79782885
 * https://www.cnblogs.com/webARM/p/6505683.html
 * https://segmentfault.com/a/1190000006190814
-* commander 写自己的Nodejs命令  http://blog.fens.me/nodejs-commander/
+* commander 写自己的Nodejs命令  http://blog.fens.me/nodejs-commander/  https://github.com/tj/commander.js/
 * eaa.js  跟 koa.js https://eggjs.org/zh-cn/intro/egg-and-koa.html
 * npm link  使用  https://www.cnblogs.com/CyLee/p/6195022.html
 
